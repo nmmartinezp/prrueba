@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bordes.css">
+    <link rel="stylesheet" href="mets.css">
+    <link rel="stylesheet" href="fondos.css">
+    <link rel="stylesheet" href="margenes.css">
+    <link rel="stylesheet" href="padding.css">
+    <link rel="stylesheet" href="outline.css">
+    <link rel="stylesheet" href="texto.css">
+    <title>CSS</title>s
+</head>
+<body>
+    <header>
+        <h1>CSS Notes</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Fondos css</h3>
+            <div>
+                <h4>Fondos de color</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Fondo de color</b> 
+
+                            bg-color{
+                                background-color: red;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-color">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Opacidad</b> 
+
+                            bg-color-opacity{
+                                background-color: red;
+                                opacity: 70%;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-color-opacity">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Transparencia</b> 
+
+                            .bg-color-transparency{
+                                background-color: rgba(255, 0, 0, 0.7);
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-color-transparency">
+                        .contenido
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Fondos de imagen</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Fondo con imagen</b> 
+
+                            .bg-image{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image">
+                        .contenido
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Repeticion de fondo</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando repeat-x</b> 
+
+                            .bg-image-repeat-x{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                                background-repeat: repeat-x;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image-repeat-x">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando no-repeat</b> 
+
+                            .bg-image-no-repeat{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                                background-repeat: no-repeat;
+                                height: 500px;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image-no-repeat">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando no-repeat con position</b> 
+
+                            .bg-image-no-repeat-position{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                                background-repeat: no-repeat;
+                                background-position: right top;
+                                height: 500px;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image-no-repeat-position">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando round con size:contain</b> 
+
+                            .bg-image-round-contain{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                                background-repeat: round;
+                                background-position: right top;
+                                background-attachment: scroll;
+                                background-size: contain;
+                                height: 500px;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image-round-contain">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando unset</b> 
+
+                            .bg-image-unset-contain{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                                background-repeat: unset;
+                                background-attachment: fixed;
+                                background-size: contain;
+                                height: 500px;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image-unset-contain">
+                        .contenido
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Usando adjunto de fondo - background-attachment</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando fixed</b> 
+
+                            .bg-image-attachment-fixed{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                                background-repeat: no-repeat;
+                                background-position: right top;
+                                background-attachment: fixed;
+                                height: 500px;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image-attachment-fixed">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando scroll</b> 
+
+                            .bg-image-attachment-scroll{
+                                background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+                                background-repeat: no-repeat;
+                                background-position: right top;
+                                background-attachment: scroll;
+                                height: 500px;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido bg-image-attachment-scroll">
+                        .contenido
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Estilo de borde</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo dotted</b> 
+
+                            .border-dotted{
+                                border: 0.5em dotted black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-dotted">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo dashed</b> 
+
+                            .border-dashed{
+                                border: 0.5em dashed black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-dashed">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo solid</b> 
+
+                            .border-solid{
+                                border: 0.5em solid black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-solid">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo double</b> 
+
+                            .border-double{
+                                border: 0.5em double black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-double">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo ridge</b> 
+
+                            .border-rigde{
+                                border: 0.5em ridge black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-ridge">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo outset</b> 
+
+                            .border-outset{
+                                border: 0.5em outset black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-outset">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo inset</b> 
+
+                            .border-inset{
+                                border: 0.5em inset black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-inset">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo groove</b> 
+
+                            .border-groove{
+                                border: 0.5em groove black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-groove">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo hidden</b> 
+
+                            .border-hidden{
+                                border: 0.5em hidden black;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-hidden">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando estilo mixer</b> 
+
+                            .border-mixer{
+                                border-style: dotted dashed solid double;
+                                border-width: 0.5em;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-mixer">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>usando radio de los bordes</b> 
+
+                            .border-radio{
+                                border-style: solid;
+                                border-width: 0.5em;
+                                border-top-right-radius: 2.3em;
+                                border-top-left-radius: 1.4em;
+                                border-bottom-left-radius: 1.2em;
+                                border-bottom-right-radius: 0.5em;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-radio">
+                        .contenido
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Margen</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>margen aplicado</b> 
+
+                            .margin{
+                                border: 1px solid black;
+                                margin-top: 2em;
+                                margin-bottom: 2em;
+                                margin-left: 2em;
+                                margin-right: 2em;
+                                width: 50%;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-solid">
+                        <div class="margin">
+                            .contenido
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Padding</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Padding</b> 
+
+                            .padding{
+                                padding: 1em 1em 1em 1em;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-solid">
+                        <div class="margin">
+                            .contenido
+                        </div>
+                        <div class="margin padding">
+                            .contenido con padding
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Padding con box-sizing</b> 
+
+                            .padding-box-sizing{
+                                padding: 1em 1em 1em 1em;
+                                box-sizing: border-box;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob border-solid">
+                        <div class="margin">
+                            .contenido
+                        </div>
+                        <div class="margin padding-box-sizing">
+                            .contenido con padding y box-sizing
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Outline</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Outline uso</b> 
+
+                            .outline-uso{
+                                border: 1em solid black;
+                                outline: 1em dotted red;
+                                outline-offset: 10px;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenidob outline-uso">
+                        .contenido
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>Texto</h4>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Color</b> 
+
+                            .text-color{
+                                color: red;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido text-color">
+                        .contenido
+                    </div>
+                </div>
+                <hr>
+                <div class="cont">
+                    <code>
+                        <pre>
+                            <b>Alineamiento a la izquierda</b> 
+
+                            .text-align{
+                                text-align: left;
+                            }
+                        </pre>
+                    </code>
+                    <div class="contenido text-align">
+                        <p>.contenido</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>CSS practico 2023</div>
+    </footer>
+</body>
+</html>

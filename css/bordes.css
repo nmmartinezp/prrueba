@@ -1,0 +1,62 @@
+/*Bordes*/
+
+/*Borde estilo dotted*/
+.border-dotted{
+    border: 0.5em dotted black;
+}
+
+/*Borde estilo dashed*/
+.border-dashed{
+    border: 0.5em dashed black;
+}
+
+/*Borde estilo solid*/
+.border-solid{
+    border: 0.5em solid black;
+}
+
+/*Borde estilo double*/
+.border-double{
+    border: 0.5em double black;
+}
+
+/*Borde estilo ridge*/
+.border-ridge{
+    border: 0.5em ridge black;
+}
+
+/*Borde estilo outset*/
+.border-outset{
+    border: 0.5em outset black;
+}
+
+/*Borde estilo inset*/
+.border-inset{
+    border: 0.5em inset black;
+}
+
+/*Borde estilo groove*/
+.border-groove{
+    border: 0.5em groove black;
+}
+
+/*Borde estilo hidden*/
+.border-hidden{
+    border: 0.5em hidden black;
+}
+
+/*Borde estilo mixer*/
+.border-mixer{
+    border-style: dotted dashed solid double;
+    border-width: 0.5em;
+}
+
+/*Borde radio*/
+.border-radio{
+    border-style: solid;
+    border-width: 0.5em;
+    border-top-right-radius: 2.3em;
+    border-top-left-radius: 1.4em;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 0.5em;
+}

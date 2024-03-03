@@ -1,0 +1,7 @@
+/*Outline o esquema*/
+
+.outline-uso{
+    border: 0.3em solid black;
+    outline: 0.3em dotted red;
+    outline-offset: 10px;
+}

@@ -1,0 +1,12 @@
+/*Texto*/
+
+/*Color*/
+.text-color{
+    color: red;
+}
+
+/*Propieda de alineamiento de texto*/
+.text-align p{
+    width: 100%;
+    text-align: left;
+}

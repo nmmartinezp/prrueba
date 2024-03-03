@@ -1,0 +1,82 @@
+/*fondos*/
+
+/*fondo de color*/
+.bg-color{
+    background-color: red;
+}
+
+/*fondo de color con opacidad*/
+.bg-color-opacity{
+    background-color: red;
+    opacity: 70%;
+}
+
+/*fonfo con trasnparencia uso de rgba()*/
+.bg-color-transparency{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+/*fondo con imagen*/
+.bg-image{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    height: 500px;
+}
+
+/*fondo con imagen repeat-x*/
+.bg-image-repeat-x{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    background-repeat: repeat-x;
+    height: 500px;
+}
+
+/*fondo con imagen no-repeat*/
+.bg-image-no-repeat{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+/*fondo con imagen no-repeat position*/
+.bg-image-no-repeat-position{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 500px;
+}
+
+/*fondo con imagen round size:contain*/
+.bg-image-round-contain{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    background-repeat: round;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: contain;
+    height: 500px;
+}
+
+/*fondo con imagen unset*/
+.bg-image-unset-contain{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    background-repeat: unset;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 500px;
+}
+
+/*fondo con imagen ajunto de fondo fixed*/
+.bg-image-attachment-fixed{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+/*fondo con imagen ajunto de fondo scroll*/
+.bg-image-attachment-scroll{
+    background-image: url(img/bb54cad314a2d6f14c7d1b63b8269470.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    height: 500px;
+}
