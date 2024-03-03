@@ -15,6 +15,10 @@ class Complex{
         return this.real;
     }
 
+    dev3(){
+        return this.real+" dev3";
+    }
+      
     dev4(){
         return this.real+" dev4";
     }
